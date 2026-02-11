@@ -1,3 +1,5 @@
+package tp;
+
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Playwright;
@@ -16,5 +18,5 @@ public class Exo1Test {
         assertThat(page).hasTitle("Example Domain");
         browser.close();
     }
-    
+
 }
